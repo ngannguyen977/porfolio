@@ -1,11 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Portfolio from "./components/Portfolio.vue";
 </script>
 
 <template>
   <div id="app">
     <HelloWorld />
+    <Portfolio />
   </div>
 </template>
 
@@ -16,6 +18,7 @@ export default {
   name: "App",
   components: {
     HelloWorld,
+    Portfolio,
   },
 };
 </script>
